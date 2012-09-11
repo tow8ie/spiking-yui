@@ -14,8 +14,10 @@
         path: 'app_view.js'
       }
     }
-  }).use('appView', function(Y) {
-    return new Y.AppView();
+  }).use('event-base', 'appView', function(Y) {
+    return Y.on('domready', function() {
+      return new Y.AppView();
+    });
   });
 
 }).call(this);

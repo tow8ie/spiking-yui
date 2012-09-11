@@ -42,7 +42,7 @@
       }
     });
   }, '0.1', {
-    requires: ['view']
+    requires: ['view', 'node']
   });
 
 }).call(this);

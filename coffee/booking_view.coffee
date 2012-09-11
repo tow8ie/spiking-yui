@@ -16,7 +16,6 @@ YUI().add 'bookingView', (Y) ->
       container = @get('container')
       model = @get('model')
 
-
       if !container.inDoc()
         html = Y.Lang.sub @template,
           cost: model.get 'cost'
@@ -38,4 +37,4 @@ YUI().add 'bookingView', (Y) ->
         cost: cost
         price: price
 
-, '0.1', requires: ['view']
+, '0.1', requires: ['view', 'node']

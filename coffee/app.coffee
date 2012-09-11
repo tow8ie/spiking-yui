@@ -10,5 +10,6 @@ YUI(
     appView:
       path: 'app_view.js'
 
-  ).use 'appView', (Y) ->
-    new Y.AppView()
+  ).use 'event-base', 'appView', (Y) ->
+    Y.on 'domready', ->
+      new Y.AppView()
