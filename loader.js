@@ -49,3 +49,4 @@ str.push(fs.readFileSync('./scripts/app.js', 'utf8'));
 
 //Write all the files out into a single file
 fs.writeFileSync('./combined.js', str.join('\n'), 'utf8');
+
