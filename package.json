@@ -1,0 +1,21 @@
+{
+  "name": "spiking-yui",
+  "version": "0.0.0",
+  "description": "Spiking of YUI dependency management.",
+  "main": "combined.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maiwald/spiking-yui.git"
+  },
+  "keywords": [
+    "yui"
+  ],
+  "author": "mindmatters",
+  "license": "BSD",
+  "dependencies": {
+    "yui": "~3.6.0"
+  }
+}
